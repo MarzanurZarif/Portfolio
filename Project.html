@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Primary Meta Tags -->
+    <title>Marzanur Zarif | Project Details</title>
+    <meta name="title" content="Marzanur Zarif | Project Details">
+    <meta name="description"
+        content="Hi, I'm Marzanur Zarif, a self-taught developer. Explore my Projects featuring web, mobile apps, automation tools, and AI projects.">
+
+    <!-- Viewport & Charset -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO & Indexing -->
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Marzanur Zarif">
+    <meta name="keywords"
+        content="Marzanur Zarif, Projects, Developer, Python, JavaScript, Laravel, Flask, Android Development, AI Chatbot, Excel Automation">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="./Portfolio/Project.html">
+    <meta property="og:title" content="Marzanur Zarif | Project Details">
+    <meta property="og:description"
+        content="Hi, I'm Marzanur Zarif, a self-taught developer. Explore my Projects featuring web, mobile apps, automation tools, and AI projects.">
+    <meta property="og:image" content="./Portfolio/assets/images/HomePreview.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="./Portfolio/Project.html">
+    <meta property="twitter:title" content="Marzanur Zarif | Project Details">
+    <meta property="twitter:description"
+        content="Hi, I'm Marzanur Zarif, a self-taught developer. Explore my Projects featuring web, mobile apps, automation tools, and AI projects.">
+    <meta property="twitter:image" content="./Portfolio/assets/images/HomePreview.png">
+
+    <!-- Favicon -->
+    <link rel="icon" href="./assets/images/MZ.png" type="image/x-icon">
+
+    <!-- Loads -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="./assets/js/Loader.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/Project.css">
+</head>
+
+<header>
+    <nav class="row align-items-start" id="nav-bar">
+        <div class="nav-section nav-section-left col">
+            <ul class="nav-items nav-items-left">
+                <li class="nav-item nav-item-btn" id="menu-btn-li"><a class="fa-solid fa-bars" id="menu-btn"></a>
+                </li>
+                <li class="nav-item nav-item-logo">
+                    <a href="./"><img src="./assets/images/MZ.png" alt="MZ"></a>
+                </li>
+            </ul>
+            <ul class="nav-items nav-items-right" id="intro-items">
+                <li class="nav-item nav-item-an"><a href="./#home">Home</a></li>
+                <li class="nav-item nav-item-an"><a href="./#about-top">About</a></li>
+                <li class="nav-item nav-item-an"><a href="#contact-top">Contact</a></li>
+            </ul>
+        </div>
+        <div class="nav-section nav-section-middle col" id="search-section">
+            <form class="input-group" role="search" id="search-form">
+                <input type="search" class="form-control" placeholder="Search..." aria-label="Search..."
+                    aria-describedby="search-btn" id="searchInput">
+                <button class="btn btn-primary" type="button" id="form-search-btn"><span
+                        class="fa-solid fa-magnifying-glass"></span></button>
+            </form>
+        </div>
+        <div class="nav-section nav-section-right col">
+            <ul class="nav-items nav-items-left" id="shop-items">
+                <li class="nav-item nav-item-menu">
+                    <div class="d-flex dropdown-hover-all">
+                        <div class="dropdown dropdown-main">
+                            <a class="dropdown-toggle main-dropdown-toggle" href=""
+                                id="SkillsDropDownMenu" data-bs-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                Skills
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="SkillsDropDownMenu">
+                                <a class="dropdown-item" href="./#about-top">HTML | CSS | JS</a>
+                                <a class="dropdown-item" href="./#about-top">Python</a>
+                                <a class="dropdown-item" href="./#about-top">Python Flask</a>
+                                <a class="dropdown-item" href="./#about-top">Laravel Framework</a>
+                                <a class="dropdown-item" href="./#about-top">Android (Java)</a>
+                                <a class="dropdown-item" href="./#about-top">MS Office Automation</a>
+                                <a class="dropdown-item" href="./#about-top">Roblox Lua</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item nav-item-menu">
+                    <div class="d-flex dropdown-hover-all">
+                        <div class="dropdown dropdown-main">
+                            <a class="dropdown-toggle main-dropdown-toggle" href=""
+                                id="ProjectsDropDownMenu" data-bs-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                Projects
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="ProjectsDropDownMenu">
+                                <a class="dropdown-item" href="./Projects.html">All Projects</a>
+                                <div class="dropdown-divider"></div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item nav-item-menu">
+                    <div class="d-flex dropdown-hover-all">
+                        <div class="dropdown dropdown-main">
+                            <a class="dropdown-toggle main-dropdown-toggle" href=""
+                                id="ServicesDropDownMenu" data-bs-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                Services
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="ServicesDropDownMenu">
+                                <a class="dropdown-item" href="#contact-top">Web Development</a>
+                                <a class="dropdown-item" href="#contact-top">Android App Development</a>
+                                <a class="dropdown-item" href="#contact-top">Roblox Game Development</a>
+                                <a class="dropdown-item" href="#contact-top">Automation Scripts</a>
+                                <a class="dropdown-item" href="#contact-top">Excel Automation</a>
+                                <a class="dropdown-item" href="#contact-top">Custom AI Chatbots</a>
+                                <a class="dropdown-item" href="#contact-top">Discord Bots</a>
+                                <a class="dropdown-item" href="#contact-top">Telegram Bots</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="nav-items nav-items-right">
+                <li class="nav-item nav-item-btn"><a class="fa-brands fa-github" href="https://github.com/MarzanurZarif"
+                        title="GitHub"></a>
+                </li>
+                <li class="nav-item nav-item-btn"><a class="fa-brands fa-facebook"
+                        href="https://www.facebook.com/MarzanurZarif" title="Facebook"></a>
+                </li>
+                <li class="nav-item nav-item-btn"><a class="fa-brands fa-whatsapp" href="https://wa.me/+8801552545262"
+                        title="WhatsApp"></a>
+                </li>
+                <li class="nav-item nav-item-btn"><a class="fa-solid fa-magnifying-glass" id="search-btn"></a></li>
+            </ul>
+        </div>
+        <div class="overlay-bg" id="overlay-bg"></div>
+    </nav>
+</header>
+
+<body x-data="loadProject()" x-init="init()">
+    <!-- PROJECTS -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <!-- <h2 class="section-title fw-bold text-center mb-4">Featured Projects</h2>
+            <p class="text-center text-muted-2 mb-5">A few things I've built or cracked together.</p> -->
+            <div class="row g-4" id="projects-cont">
+                <div class="Img-Cont">
+                    <div class="Display-Cont">
+                        <div class="swiper imageSwiper">
+                            <div class="swiper-wrapper" id="imageSwiperWrapper">
+                                <!-- <div data-hash="display1" class="swiper-slide">
+                                    <img src="./assets/images/zai_thumb.png">
+                                </div>
+                                <div data-hash="display2" class="swiper-slide">
+                                    <video controls controlsList="nodownload">
+                                        <source src="./assets/videos/zai_vid_2.mp4" type="video/mp4">
+                                    </video>
+                                </div>
+                                <div data-hash="display3" class="swiper-slide">
+                                    <img src="./assets/images/zai_1.png">
+                                </div>
+                                <div data-hash="display4" class="swiper-slide">
+                                    <img src="./assets/images/zai_2.png">
+                                </div>
+                                <div data-hash="display5" class="swiper-slide">
+                                    <img src="./assets/images/zai_3.png">
+                                </div>
+                                <div data-hash="display6" class="swiper-slide">
+                                    <img src="./assets/images/zai_4.png">
+                                </div>
+                                <div data-hash="display7" class="swiper-slide">
+                                    <img src="./assets/images/zai_5.png">
+                                </div>
+                                <div data-hash="display8" class="swiper-slide">
+                                    <img src="./assets/images/zai_6.png">
+                                </div>
+                                <div data-hash="display9" class="swiper-slide">
+                                    <img src="./assets/images/zai_7.jpeg">
+                                </div>
+                                <div data-hash="display10" class="swiper-slide">
+                                    <img src="./assets/images/zai_8.jpeg">
+                                </div>
+                                <div data-hash="display11" class="swiper-slide">
+                                    <img src="./assets/images/zai_9.jpeg">
+                                </div> -->
+                            </div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                    </div>
+                    <div class="Gallery-Cont">
+                        <div class="swiper gallerySwiper">
+                            <div class="swiper-wrapper" id="gallerySwiperWrapper">
+                                <!-- <div class="swiper-slide">
+                                    <img src="./assets/images/zai_thumb.png">
+                                </div>
+                                <div class="swiper-slide">
+                                    <video>
+                                        <source src="./assets/videos/zai_vid_2.mp4" type="video/mp4">
+                                    </video>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./assets/images/zai_1.png">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./assets/images/zai_2.png">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./assets/images/zai_3.png">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./assets/images/zai_4.png">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./assets/images/zai_5.png">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./assets/images/zai_6.png">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./assets/images/zai_7.jpeg">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./assets/images/zai_8.jpeg">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./assets/images/zai_9.jpeg">
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4 " id="projects-cont">
+                <div class="Details-Cont">
+                    <template x-if="project" :key="project.id">
+                        <div class="project-card rounded-2 p-4 h-100">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="mb-0" x-text="project.title"></h5>
+                                <template x-if="project.icon"><span x-html="project.icon"></span></template>
+                            </div>
+                            <p class="text-muted-2" x-text="project.description"></p>
+                            <div class="d-flex flex-wrap gap-2 mb-2">
+                                <template x-for="language in project.languages">
+                                    <span class="badge project-tag" x-text="language"></span>
+                                </template>
+                            </div>
+                            <div class="d-flex flex-wrap gap-2 mt-auto">
+                                <template x-for="tag in project.tags">
+                                    <span class="badge project-tag" x-text="tag"></span>
+                                </template>
+                            </div>
+                            <div class="d-flex flex-wrap gap-3 mt-4">
+                                <a href="javascript:history.back()" class="btn btn-outline-secondary"><i class="fa-solid fa-reply"></i></a>
+                                <template x-if="project.demo">
+                                    <a :href="project.demo" target="_blank" class="btn btn-outline-primary">🔗 Live
+                                        Demo</a>
+                                </template>
+                                <template x-if="project.github">
+                                    <a :href="project.github" target="_blank" class="btn btn-outline-primary">💻
+                                        GitHub</a>
+                                </template>
+                                <a href="./Projects.html" class="btn btn-outline-light">Other Projects</a>
+                            </div>
+                        </div>
+                    </template>
+                </div>
+            </div>
+            <template x-if="notFound">
+                <div class="text-center py-5">
+                    <h2><span class="text-danger">404</span> - Project Details Not Found</h2>
+                    <p class="text-center text-secondary mb-0">The project details you're looking for doesn't exist.</p>
+                    <p class="text-center text-secondary mt-0">Really sorry if this is a mistake.</p>
+                    <a class="btn btn-outline-primary btn-lg" href="javascript:history.back()"><i class="fa-solid fa-reply"></i> Go back</a>
+                </div>
+            </template>
+        </div>
+    </section>
+
+    <div class="divider" id="contact-top"></div>
+
+    <!-- CONTACT -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="section-title fw-bold mb-3">Let's work together</h2>
+                    <p class="text-muted-2 mb-4">Tell me about your idea. I can help with websites, Android apps, and
+                        automation.</p>
+                    <div class="d-flex flex-wrap gap-3">
+                        <a class="btn btn-primary btn-sm btn-glow" href="mailto:zmarzanur@gmail.com"><i
+                                class="fa-regular fa-envelope me-2"></i>Email Me</a>
+                        <a class="btn btn-outline-light btn-sm" href="https://wa.me/+8801552545262" target="_blank"><i
+                                class="fa-brands fa-whatsapp me-2"></i>WhatsApp</a>
+                        <a class="btn btn-outline-light btn-sm" href="https://github.com/MarzanurZarif"
+                            target="_blank"><i class="fa-brands fa-github me-2"></i>GitHub</a>
+                        <!-- <a class="btn btn-outline-light btn-lg" href="#" target="_blank"><i
+                                class="fa-brands fa-linkedin me-2"></i>LinkedIn</a> -->
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="p-4 rounded-4" style="background:#0f0a1f;border:1px solid rgba(255,255,255,.08);">
+                        <div class="row g-3">
+                            <div class="col-6"><small class="text-muted-2">Based in</small>
+                                <div>Dhaka, Bangladesh</div>
+                            </div>
+                            <div class="col-6"><small class="text-muted-2">Timezone</small>
+                                <div>GMT+6</div>
+                            </div>
+                            <div class="col-6"><small class="text-muted-2">Preferred</small>
+                                <div>Project or hourly</div>
+                            </div>
+                            <div class="col-6"><small class="text-muted-2">Languages</small>
+                                <div>EN • BN</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-4 text-center">
+        <strong>Built with ❤️</strong>
+        <br>
+        <small>© <span id="year"></span> Marzanur Zarif. All Rights Reserved.</small>
+    </footer>
+
+    <div class="fullscreen-swiper hidden">
+        <div class="fullscreen-swiper-content">
+            <div class="swiper fullscreenImageSwiper">
+                <div class="swiper-wrapper" id="fullscreenImageSwiperWrapper">
+                    <!-- <div data-hash="display1" class="swiper-slide">
+                        <div class="swiper-zoom-container">
+                            <img src="./assets/images/zai_thumb.png">
+                        </div>
+                    </div>
+                    <div data-hash="display2" class="swiper-slide">
+                        <video controls controlsList="nodownload">
+                            <source src="./assets/videos/zai_vid_2.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div data-hash="display3" class="swiper-slide">
+                        <div class="swiper-zoom-container">
+                            <img src="./assets/images/zai_1.png">
+                        </div>
+                    </div>
+                    <div data-hash="display4" class="swiper-slide">
+                        <div class="swiper-zoom-container">
+                            <img src="./assets/images/zai_2.png">
+                        </div>
+                    </div>
+                    <div data-hash="display5" class="swiper-slide">
+                        <div class="swiper-zoom-container">
+                            <img src="./assets/images/zai_3.png">
+                        </div>
+                    </div>
+                    <div data-hash="display6" class="swiper-slide">
+                        <div class="swiper-zoom-container">
+                            <img src="./assets/images/zai_4.png">
+                        </div>
+                    </div>
+                    <div data-hash="display7" class="swiper-slide">
+                        <div class="swiper-zoom-container">
+                            <img src="./assets/images/zai_5.png">
+                        </div>
+                    </div>
+                    <div data-hash="display8" class="swiper-slide">
+                        <div class="swiper-zoom-container">
+                            <img src="./assets/images/zai_6.png">
+                        </div>
+                    </div>
+                    <div data-hash="display9" class="swiper-slide">
+                        <div class="swiper-zoom-container">
+                            <img src="./assets/images/zai_7.jpeg">
+                        </div>
+                    </div>
+                    <div data-hash="display10" class="swiper-slide">
+                        <div class="swiper-zoom-container">
+                            <img src="./assets/images/zai_8.jpeg">
+                        </div>
+                    </div>
+                    <div data-hash="display11" class="swiper-slide">
+                        <div class="swiper-zoom-container">
+                            <img src="./assets/images/zai_7.jpeg">
+                        </div>
+                    </div> -->
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            <div class="swiper fullscreenGallerySwiper">
+                <div class="swiper-wrapper" id="fullscreenGallerySwiperWrapper">
+                    <!-- <div class="swiper-slide">
+                        <img src="./assets/images/zai_thumb.png">
+                    </div>
+                    <div class="swiper-slide">
+                        <video>
+                            <source src="./assets/videos/zai_vid_2.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/images/zai_1.png">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/images/zai_2.png">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/images/zai_3.png">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/images/zai_4.png">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/images/zai_5.png">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/images/zai_6.png">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/images/zai_7.jpeg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/images/zai_8.jpeg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/images/zai_9.jpeg">
+                    </div> -->
+                </div>
+            </div>
+            <button class="fullscreen-close fa-solid fa-xmark"></button>
+        </div>
+    </div>
+
+    <!-- Loads -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
+        integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/d728883de8.js" crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/Project.js"></script>
+</body>
+
+</html>

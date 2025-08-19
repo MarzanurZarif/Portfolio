@@ -1,0 +1,25 @@
+/* --------------------------- HOME --------------------------- */
+
+.hero-dark-gradient {
+    position: relative;
+    isolation: isolate;
+    min-height: calc(100vh);
+    display: grid;
+    place-items: center;
+    text-align: center;
+    overflow: hidden;
+    background: radial-gradient(1200px 600px at 10% 10%, rgba(118, 60, 172, 0.25), transparent 60%),
+        radial-gradient(900px 500px at 90% 20%, rgba(29, 78, 216, 0.18), transparent 60%),
+        linear-gradient(135deg, #12041F 0%, #0E0B1A 35%, #0C0A1A 100%);
+}
+
+.hero-dark-gradient .hero-card {
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.text-highlight {
+    color: var(--bd-violet);
+    white-space: nowrap;
+}

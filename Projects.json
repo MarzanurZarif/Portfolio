@@ -1,0 +1,205 @@
+[
+    {
+        "id": 1,
+        "title": "Laravel 8 E-Commerce",
+        "description": "A full-featured Laravel 8 e-commerce site with authentication, cart, checkout, payment integration and more.",
+        "featured": true,
+        "icon": "<i class='fa-brands fa-laravel'></i>",
+        "thumbnail": "",
+        "images": [],
+        "videos": [],
+        "languages": [
+            "PHP",
+            "MySQL",
+            "HTML/CSS/JS"
+        ],
+        "tags": [
+            "Web Development",
+            "E-Commerce",
+            "Laravel 8"
+        ],
+        "demo": "",
+        "github": ""
+    },
+    {
+        "id": 2,
+        "title": "DSE Tracker App",
+        "description": "Live quotes, watchlists, and alerts for Dhaka Stock Exchange with a clean Material UI.",
+        "featured": true,
+        "icon": "<i class='fa-brands fa-android'></i>",
+        "thumbnail": "./assets/images/dse_1.jpeg",
+        "images": [
+            "./assets/images/dse_2.jpeg",
+            "./assets/images/dse_3.jpeg",
+            "./assets/images/dse_4.jpeg",
+            "./assets/images/dse_5.jpeg"
+        ],
+        "videos": [],
+        "languages": [
+            "Java",
+            "XML"
+        ],
+        "tags": [
+            "Web Scraping",
+            "Real-time Data",
+            "App Development"
+        ],
+        "demo": "",
+        "github": ""
+    },
+    {
+        "id": 3,
+        "title": "Excel Automation Tool",
+        "description": "Automated Excel data entry and manipulation using Python and openpyxl.",
+        "featured": true,
+        "icon": "<i class='fa-solid fa-file-excel'></i>",
+        "thumbnail": "",
+        "images": [],
+        "videos": [],
+        "languages": [
+            "Python"
+        ],
+        "tags": [
+            "Automation",
+            "Excel",
+            "Data Entry"
+        ],
+        "demo": "",
+        "github": ""
+    },
+    {
+        "id": 4,
+        "title": "Z AI",
+        "description": "Custom conversational AI chatbot powered by Gemini API with a formatted markup chat UI.",
+        "featured": true,
+        "icon": "<i class='fa-solid fa-message'></i>",
+        "thumbnail": "./assets/images/zai_thumb.png",
+        "images": [
+            "./assets/images/zai_1.png",
+            "./assets/images/zai_2.png",
+            "./assets/images/zai_3.png",
+            "./assets/images/zai_4.png",
+            "./assets/images/zai_5.png",
+            "./assets/images/zai_6.png",
+            "./assets/images/zai_7.jpeg",
+            "./assets/images/zai_8.jpeg",
+            "./assets/images/zai_9.jpeg"
+        ],
+        "videos": [
+            "./assets/videos/zai_vid_1.mkv",
+            "./assets/videos/zai_vid_2.mp4"
+        ],
+        "languages": [
+            "Python",
+            "HTML/CSS/JS"
+        ],
+        "tags": [
+            "AI",
+            "Chatbot",
+            "Gemini API",
+            "Markup UI"
+        ],
+        "demo": "https://zarif.onrender.com/chat",
+        "github": ""
+    },
+    {
+        "id": 5,
+        "title": "Ariq Intelligence",
+        "description": "Custom conversational AI chatbot powered by Deepseek API with a formatted markup chat UI.",
+        "featured": false,
+        "icon": "<i class='fa-solid fa-message'></i>",
+        "thumbnail": "./assets/images/ai_thumb.png",
+        "images": [
+            "./assets/images/ai_1.png",
+            "./assets/images/ai_2.png",
+            "./assets/images/ai_3.png",
+            "./assets/images/ai_4.jpeg",
+            "./assets/images/ai_5.jpeg"
+        ],
+        "videos": [
+            "./assets/videos/ai_vid_1.mkv",
+            "./assets/videos/ai_vid_2.mp4"
+        ],
+        "languages": [
+            "Python",
+            "HTML/CSS/JS"
+        ],
+        "tags": [
+            "AI",
+            "Chatbot",
+            "Deepseek API",
+            "Markup UI"
+        ],
+        "demo": "https://ariq.onrender.com/chat",
+        "github": ""
+    },
+    {
+        "id": 6,
+        "title": "Fenius Chess Bot",
+        "description": "Browser extension for chess automation using Stockfish.js engine.",
+        "featured": true,
+        "icon": "<i class='fa-solid fa-chess-knight'></i>",
+        "thumbnail": "./assets/images/fenius_thumb.png",
+        "images": [
+            "./assets/images/fenius_1.png",
+            "./assets/images/fenius_2.png",
+            "./assets/images/fenius_3.png"
+        ],
+        "videos": [
+            "./assets/videos/fenius_vid_1.mp4"
+        ],
+        "languages": [
+            "NodeJS",
+            "HTML/CSS/JS"
+        ],
+        "tags": [
+            "Browser Extension",
+            "Automation",
+            "Bots",
+            "Chess"
+        ],
+        "demo": "",
+        "github": ""
+    },
+    {
+        "id": 7,
+        "title": "Train Ticket Finder",
+        "description": "Automated system to find available Bangladesh Railway tickets.",
+        "featured": false,
+        "icon": "<i class='fa-solid fa-train'></i>",
+        "thumbnail": "",
+        "images": [],
+        "videos": [],
+        "languages": [
+            "Python"
+        ],
+        "tags": [
+            "Web Scraping",
+            "Automation",
+            "Bots"
+        ],
+        "demo": "",
+        "github": ""
+    },
+    {
+        "id": 8,
+        "title": "Telegram & Discord Bots",
+        "description": "Custom Python bots for Telegram and Discord to automate tasks.",
+        "featured": true,
+        "icon": "<i class='fa-solid fa-robot'></i>",
+        "thumbnail": "",
+        "images": [],
+        "videos": [],
+        "languages": [
+            "Python"
+        ],
+        "tags": [
+            "Telegram API",
+            "Discord API",
+            "Bots",
+            "Automation"
+        ],
+        "demo": "",
+        "github": ""
+    }
+]
