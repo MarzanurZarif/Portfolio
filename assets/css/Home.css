@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
 /* --------------------------- HOME --------------------------- */
 
 .hero-dark-gradient {
@@ -24,5 +26,6 @@
     white-space: nowrap;
     font-family: "Black Ops One", "Montserrat", sans-serif;
 }
+
 
 
