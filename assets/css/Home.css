@@ -22,6 +22,7 @@
 .text-highlight {
     color: var(--bd-violet);
     white-space: nowrap;
-    font-family: "Black Ops One";
+    font-family: "Black Ops One", "Montserrat", sans-serif;
 }
+
 
