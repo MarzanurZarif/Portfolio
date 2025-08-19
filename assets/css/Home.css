@@ -22,5 +22,6 @@
 .text-highlight {
     color: var(--bd-violet);
     white-space: nowrap;
-    font-family: "Black Ops One", system-ui;
+    font-family: "Black Ops One";
 }
+
